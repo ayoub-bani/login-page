@@ -7,30 +7,61 @@ body {
     background-color: #F9F9F9;
 }
 
-/* Fonts TTCommons */
+/* Fonts */
 @font-face {
     font-family: 'TT Commons Medium';
     src: url('./src/fonts/TTCommons-Medium.eot');
     src: url('./src/fonts/TTCommons-Medium.woff') format('woff'),
-    url('./src/fonts/TTCommons-Medium.ttf') format('truetype');
-  }
+        url('./src/fonts/TTCommons-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('./src/fonts/Roboto-Regular.eot');
+    src: url('Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./src/fonts/Roboto-Regular.woff') format('woff'),
+        url('./src/fonts/Roboto-Regular.ttf') format('truetype');
+}
 
 
-  /* main section height */
-  #main {
-      height: 100vh;
-      margin-block-start: 9.4rem;
-  }
+/* main section height */
+#main {
+    height: 100vh;
+    margin-block-start: 9.4rem;
+}
 
-  /* title header font */
-  .header-title {
+/* title header font */
+.header-title {
     font-family: 'TT Commons Medium', Roboto, sans-serif;
     font-size: 36px;
     letter-spacing: -0.5px;
     line-height: 42px;
-  }
+}
 
-  /* custom container */
-  .container.custom-container{
+/* custom container */
+.container.custom-container {
     max-width: 1050px;
-  }
+}
+
+.custom-trending-style {
+    font-family: 'Roboto Regular', sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    font-size: 17px;
+    letter-spacing: 0.2px;
+    word-spacing: 1px;
+    font-weight: 500;
+
+}
+
+.btn-custom-styles {
+    font-size: 13px;
+    border-radius: 2rem;
+    background-color: #EAEAEA;
+    padding: 0 16px;
+    margin: 10px 4px 0;
+    border-radius: 2em;
+    line-height: 30px;
+    font-weight: normal;
+    min-width: auto;
+}
