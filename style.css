@@ -1,6 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F9F9F9;
+}
+
 /* Fonts TTCommons */
 @font-face {
-    font-family: 'TTCommons';
-    src: url('./src/fonts/TTCommons-Medium.ttf') format('ttf'), /* Super Modern Browsers */
+    font-family: 'TT Commons Medium';
+    src: url('./src/fonts/TTCommons-Medium.eot');
+    src: url('./src/fonts/TTCommons-Medium.woff') format('woff'),
+    url('./src/fonts/TTCommons-Medium.ttf') format('truetype');
+  }
 
+
+  /* main section height */
+  #main {
+      height: 100vh;
+      margin-block-start: 9.4rem;
+  }
+
+  /* title header font */
+  .header-title {
+    font-family: 'TT Commons Medium', Roboto, sans-serif;
+    font-size: 36px;
+    letter-spacing: -0.5px;
+    line-height: 42px;
+  }
+
+  /* custom container */
+  .container.custom-container{
+    max-width: 1050px;
   }
