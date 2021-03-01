@@ -1,0 +1,6 @@
+/* Fonts TTCommons */
+@font-face {
+    font-family: 'TTCommons';
+    src: url('./src/fonts/TTCommons-Medium.ttf') format('ttf'), /* Super Modern Browsers */
+
+  }
