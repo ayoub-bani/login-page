@@ -108,11 +108,11 @@ input {
 }
 
 input:focus {
-    border-color: #6200EE;
+    border-color: #666666;
 }
 
 input:focus+label {
-    color: #6200EE;
+    color: #666666;
     top: 0;
     transform: translateY(-50%) scale(.9);
 }
@@ -120,4 +120,16 @@ input:focus+label {
 input:not(:placeholder-shown)+label {
     top: 0;
     transform: translateY(-50%) scale(.9);
+}
+
+/* Form button styles */
+.btn.btn-color {
+    background-color: #666666;
+}
+
+/* disable default focus inside input */
+.form-control:focus {
+    border-color: #cccccc;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
