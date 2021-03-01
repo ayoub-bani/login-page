@@ -127,9 +127,20 @@ input:not(:placeholder-shown)+label {
     background-color: #666666;
 }
 
+/* custom input height */
+.form-control.custom-input-height {
+    height: 3rem;
+}
+
 /* disable default focus inside input */
 .form-control:focus {
     border-color: #cccccc;
     -webkit-box-shadow: none;
     box-shadow: none;
+}
+
+/* custom card style */
+.card.custom-card-style {
+    height: 60vh;
+    margin-top: -5rem;
 }
